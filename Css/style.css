@@ -1,0 +1,104 @@
+@page :first {
+  margin: 0;
+}
+body{
+	background: url("../Images/fond.JPG") no-repeat center fixed !important; 
+    background-size: cover !important; /* version standardisée */
+    -o-background-size: cover !important; /* version précédente */
+    margin: 20pt 50pt;
+}
+
+#title h1, #title h2{
+	color: white !important;
+	text-align: center;
+}
+
+a{
+	color: #ffffff !important;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	margin-top: 20pt;
+}
+
+#title h1{
+	font-size: 45pt;
+}
+#title h2{
+	
+}
+
+h1, h2, h3{
+	color: white !important;
+}
+
+h5{
+	color: #888888 !important;
+}
+
+.test{
+	background-color: white !important;
+}
+
+img{
+	width: 100%;
+}
+
+.cadre_gris{
+	background-color: #515151 !important;
+	border-radius: 5pt;
+	*-border-radius: 5pt;
+	padding: 5pt;
+	color:#ffffff !important;
+	margin-top: 10pt;
+}
+
+.box_gris{
+	background-color: #515151 !important;
+	border-radius: 5pt;
+	*-border-radius: 5pt;
+	padding: 5pt;
+	color:#dddddd !important;
+	border:1pt solid #eeeeee;
+	display: inline-block;
+}
+
+.cadre_blanc{
+	background-color: white !important;
+	border-radius: 10pt;
+	*-border-radius: 10pt;
+	padding: 10pt;
+	color:#333333 !important;
+	margin-top: 10pt;
+}
+.fa{
+}
+.fa_blank{
+	width: 10pt;
+}
+
+.colorblanc{
+	color:#ffffff !important;
+	
+}
+.justify{
+	text-align: justify;
+}
+
+.cadre_blanc h4{
+	color: #1b2d87 !important;
+}
+
+.logo_entr{
+	float: right;
+	width: 170pt;
+}
+.notes{
+	text-align: right;
+	display: inline-block;
+	float: right;
+	color: #1b2d87 !important;
+}
+hr {
+	margin: 5pt 0;
+}
